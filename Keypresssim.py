@@ -15,6 +15,7 @@ trainingdataset=[]
 image_list=[]
 time.sleep(5)
 i=1
+while i<100:
   im = pyautogui.screenshot(region=(0,200,800,400))
   #im.show()
 #            # run a color convert:
